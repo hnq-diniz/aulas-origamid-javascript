@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>forms</title>
+</head>
+
+<body>
+  <style>
+    label {
+      display: block;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.5rem;
+      border: 2px solid #000000;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    .invalido {
+      border-color: #bb0000;
+    }
+
+    #cores {
+      margin-bottom: 10px;
+    }
+  </style>
+  <form name="contato" id="contato">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required>
+    <span class="erro"></span>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+    <span class="erro"></span>
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem"></textarea>
+    <select name="cores" id="cores">
+      <option value="#ffffff">Branco</option>
+      <option value="#222222">Preto</option>
+      <option value="#222288">Azul</option>
+    </select>
+
+    <input type="date">
+    <input type="number">
+    <input type="range">
+    <input type="password">
+    <input type="color">
+
+    <label for="identidade">Possui identidade?</label>
+    <input type="checkbox" value="identidade" id="identidade">
+    <label for="casado">Casado?</label>
+    <input type="checkbox" value="casado" id="casado">
+
+    <label for="guitarra">Guitarra</label>
+    <input type="radio" id="guitarra" value="guitarra" name="instrumento" />
+    <label for="violao">Violão</label>
+    <input type="radio" id="violao" value="violao" name="instrumento" />
+    <label for="baixo">Baixo</label>
+    <input type="radio" id="baixo" value="baixo" name="instrumento" />
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
