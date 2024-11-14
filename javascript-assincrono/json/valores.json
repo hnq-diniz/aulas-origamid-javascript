@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "faculdade": true,
+  "pertences": ["lapis", "caneta", "caderno"],
+  "endereco": {
+    "cidade": "Rio de Janeiro",
+    "pais": "Brasil"
+  },
+  "casado": null
+}
