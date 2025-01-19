@@ -9,7 +9,7 @@ console.log(backgroundColor, color, margin); // rgb(255, 99, 71), rgb(0, 0, 0) e
 let cursoAtivo = 'JavaScript';
 let cursoInativo = 'HTML';
 
-[cursoAtivo, cursoInativo] = ['HTML', 'JavaScript'];
+[cursoAtivo, cursoInativo] = [cursoInativo, cursoAtivo];
 console.log(cursoAtivo, cursoInativo);
 
 // Corrija o erro abaixo
