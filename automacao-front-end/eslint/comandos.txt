@@ -1,0 +1,22 @@
+ESLint
+
+- Evitar problemas
+Indica a existência de possíveis padrões problemáticos no código
+
+- Definir padrões
+Padronizar e manter consistência entre diferentes códigos JavaScript
+
+- https://eslint.org/
+
+- Regras
+https://eslint.org/docs/latest/rules/
+
+--------------------------------------------------
+
+Instalar ESLinst
+
+$ npm init
+Iniciar repositório NPM no local.
+
+$ npm install --save-dev eslint
+Instalar o eslint localmente.
