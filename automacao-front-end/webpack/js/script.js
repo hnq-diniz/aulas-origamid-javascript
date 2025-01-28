@@ -1,0 +1,31 @@
+import initScrollSuave from './modules/scroll-suave.js';
+import initAnimacaoScroll from './modules/scroll-animacao.js';
+import initTabNav from './modules/navegacao-tab.js';
+import initAccordion from './modules/accordion.js';
+import initModal from './modules/modal.js';
+import initTooltip from './modules/tooltip.js';
+import initDropdownMenu from './modules/dropdown-menu.js';
+import initMenuMobile from './modules/menu-mobile.js';
+import initFuncionamento from './modules/funcionamento.js';
+import initFetchAnimais from './modules/fetch-animais.js';
+import initFetchBitcoin from './modules/fetch-bitcoin.js';
+
+initScrollSuave();
+initAnimacaoScroll();
+initTabNav();
+initAccordion();
+initModal();
+initTooltip();
+initDropdownMenu();
+initMenuMobile();
+initFuncionamento();
+initFetchAnimais();
+initFetchBitcoin();
+
+import $ from 'jquery';
+import _ from 'lodash';
+
+$('nav').hide();
+
+const diferenca = _.difference(['Banana', 'Morango', 'Uva'], ['Banana', 'Morango', 'Pêra']);
+console.log(diferenca); // Uva
