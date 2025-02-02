@@ -43,7 +43,7 @@ console.log(testRegexp.test(testFrase)); // true
 console.log(testRegexp.lastIndex); // 17
 console.log(testRegexp.test(testFrase)); // false
 console.log(testRegexp.lastIndex); // 0
-console.log(testRegexp.test(testFrase)); // true (Reinicia
+console.log(testRegexp.test(testFrase)); // true (Reinicia)
 console.log(testRegexp.lastIndex); // 4
 
 // -----------------------------------------------------------------//
@@ -72,7 +72,7 @@ console.log(ExecRegexp.exec(ExecFrase)); // ["JavaScript", index: 0, input: "Jav
 console.log(ExecRegexp.exec(ExecFrase)); // ["TypeScript", index: 12, input: "JavaScript, TypeScript e CoffeeScript", groups: undefined]
 console.log(ExecRegexp.exec(ExecFrase)); // ["CoffeeScript", index: 25, input: "JavaScript, TypeScript e CoffeeScript", groups: undefined]
 console.log(ExecRegexp.exec(ExecFrase)); // null
-console.log(ExecRegexp.exec(ExecFrase)); // ["JavaScript", index: 0, input: "JavaScript, TypeScript e CoffeeScript", groups: undefined]
+console.log(ExecRegexp.exec(ExecFrase)); // ["JavaScript", index: 0, input: "JavaScript, TypeScript e CoffeeScript", groups: undefined] (Reinicia)
 
 // -----------------------------------------------------------------//
 
